@@ -1,0 +1,72 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Page */
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Card */
+.container{
+    width:350px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+/* Title */
+.container h1{
+    margin-bottom:25px;
+    color:#333;
+}
+
+/* Input */
+.container input{
+    width:100%;
+    padding:12px 15px;
+    font-size:16px;
+    border:2px solid #ddd;
+    border-radius:8px;
+    outline:none;
+    transition:.3s;
+    margin-bottom:20px;
+}
+
+.container input:focus{
+    border-color:#4facfe;
+    box-shadow:0 0 8px rgba(79,172,254,.4);
+}
+
+/* Button */
+.container button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#4facfe;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.container button:hover{
+    background:#1f8cff;
+    transform:translateY(-2px);
+}
+
+.container button:active{
+    transform:scale(.98);
+}
